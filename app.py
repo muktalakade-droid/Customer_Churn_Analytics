@@ -7,7 +7,7 @@ st.set_page_config(
 )
 
 # Load dataset
-df = pd.read_csv("data/European_Bank.csv")
+df = pd.read_csv("European_Bank.csv")
 
 st.markdown(
     "<h2 style='font-size:24px; margin-bottom:15px;'>🏦📊 European Banking — Customer Churn & Segmentation Analytics</h2>",
